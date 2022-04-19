@@ -2,6 +2,7 @@
 <html>
     <head>
         <Title>Jay Kang Portfolio</Title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="./img/icon/Group 23.ico">
         <link rel="stylesheet" href="./css/style.css">
     </head>
@@ -26,7 +27,7 @@
             </div>
             <div>
             <nav>
-                <div class="navimage">
+                <div id="navpage" class="navimage">
                 <img src="./img/Scroll Group 4.png" width="1200" height="1080">
                 </div>
                 <div class="nav">
@@ -39,7 +40,20 @@
                 <h3><a id="portfolionav" href="#portfolio">ㅡ Portfolio</a></h3>
                 <h3><a id="contactnav" href="#contact">ㅡ Contact</a></h3>
                 </div>
-                <div class="clicktonav"><a id="clicktonav" href="#homenav"><img src="./img/Group 21.png" width="90" height="45" id="clicktonav"></a></div>
+                <div class="clicktonav" id="clicktonav">
+                    <ul class="dropdown">
+                        <li>Navigations
+                            <ul class="submenu">
+                                <li><a class="sub" href="#home">Home</a></li>
+                                <li><a class="sub" href="#navpage">Navi Page</a></li>
+                                <li><a class="sub" href="#aboutme">About Me</a></li>
+                                <li><a class="sub" href="#capability">Capability</a></li>
+                                <li><a class="sub" href="#certificate">Certificates</a></li>  
+                                <li><a class="sub" href="#portfolio">Portfolio</a></li>
+                                <li><a class="sub" href="#contact">Contact</a></li>
+                            </ul>   
+                        </li>    
+                    </ul>
             </nav>
             </div>
         </header>
@@ -132,6 +146,20 @@
                 <h3>ㅡ Web Design</h3>
                 </div>
                 </div>
+                <div class="portde1">
+                <p> Created a logo and a copywrite for imaginary bakery named Bready House
+                    which was a mouth-lookalike bread with the company name at the bottom
+                    It looks simeple, but very intutive with the strong copy write massage</p>
+                </div>
+                <div class="portde2">
+                <p>Built a website for the same imaginary bakery
+                    emphasized on health related features and picked neutural colors from bread and nature to appeal the health-consious buyers.</p>
+                </div>
+                <div class="portde3">
+                <p>Created pop-up ad and a copywrite for the ford bronco
+                    The copywrite, Wild Moves Ford, is the expression of the offload capability for the vehicle
+                    also utilized catching slogun to grab buyers attention by using a pun to replace the word forward with ford</p>
+                </div>
             <div class="pf1">
             <img src="./img/pf logo.png" width="583" height="445"><img src="./img/pf logo2.png" width="583" height="445">
             </div>
@@ -150,23 +178,22 @@
             <img src="./img/Rectangle 17.png" width="610">
             </div>
             <div class="form">
-            <form>
-                <fieldset>
-                    <div class="inputs">
-                        <input type="text" name="name" placeholder="name" required>
-                    </div>
-                    <div class="inputs2">
-                        <input type="text" name="email" placeholder="email" required>
-                    </div>
-                    <div class="inputs3">
-                        <input type="text" name="message" placeholder="message" required>
-                    </div>
-                    <div class="inputs4">
-                        <input type="submit" name="submit" value="submit">
-                    </div>
-                    </div>
-                </fieldset>
-            </form>
+                <form>
+                    <fieldset>
+                        <div class="inputs">
+                            <input type="text" name="name" placeholder="name" required>
+                        </div>
+                        <div class="inputs2">
+                            <input type="text" name="email" placeholder="email" required>
+                        </div>
+                        <div class="inputs3">
+                            <p id="textarea">
+                                <textarea placeholder="special request" rows="1" cols="5"></textarea>
+                            </p>
+                        </div>
+                            <input type="submit" name="send" value="Send" class="sendbtn">
+                    </fieldset>
+                </form>
             </div>
             </div>
             <div class="box2">
@@ -176,7 +203,7 @@
             <a id="insta" href="https://www.instagram.com/geography.25/"><img src="./img/insta.png" width="100"></a>
             </div>
             <div class="twit">
-            <a id="twit" href="https://www.linkedin.com/in/jihyeong-kang-5338331b4/"><img src="./img/twit.png" width="100"></a>
+            <a id="twit" href="https://www.linkedin.com/in/jihyeong-kang-5338331b4/"><img src="./img/twit.png" width="80"></a>
             </div>
             <div class="thankyou">
             <hr>
